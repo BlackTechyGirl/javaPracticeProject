@@ -24,4 +24,5 @@ public class CreditLimitCalculator {
         }else {
             System.out.println("You are good");
         }
+    }
 }
