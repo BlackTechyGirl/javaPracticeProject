@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bbf7cb-d0cb-41de-8cb4-1c9adc719861" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/Analysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/ClassAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/ClassAverageSentinel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/chapterFour/StudentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterThree/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterThree/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterThree/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/chapterThree/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/chapterThree/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/GasMileage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/GasMileage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +65,39 @@
       <recent name="first" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArithmeticTest.obtainTwoNumbersFromTheUser">
-    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterThree.AccountTest" />
+  <component name="RunManager" selected="Application.WhileCounter">
+    <configuration name="Analysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.Analysis" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterThree.*" />
+          <option name="PATTERN" value="chapterFour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.ClassAverage" />
+      <module name="javaPracticeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterFour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassAverageSentinel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.ClassAverageSentinel" />
+      <module name="javaPracticeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapterFour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,58 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorldPopulationGrowthCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterTwo.WorldPopulationGrowthCalculator" />
+    <configuration name="WhileCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFive.WhileCounter" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterTwo.*" />
+          <option name="PATTERN" value="chapterFive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.weCanGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaPracticeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapterThree" />
-      <option name="MAIN_CLASS_NAME" value="chapterThree.AccountTest" />
-      <option name="METHOD_NAME" value="weCanGetName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArithmeticTest.obtainTwoNumbersFromTheUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaPracticeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapterTwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapterTwo" />
-      <option name="MAIN_CLASS_NAME" value="chapterTwo.ArithmeticTest" />
-      <option name="METHOD_NAME" value="obtainTwoNumbersFromTheUser" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArithmeticTest.obtainTwoNumbersFromTheUser" />
-        <item itemvalue="Application.AccountTest" />
-        <item itemvalue="JUnit.AccountTest.weCanGetName" />
+        <item itemvalue="Application.WhileCounter" />
+        <item itemvalue="Application.ClassAverage" />
         <item itemvalue="Application.GasMileage" />
-        <item itemvalue="Application.WorldPopulationGrowthCalculator" />
+        <item itemvalue="Application.Analysis" />
+        <item itemvalue="Application.ClassAverageSentinel" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +162,8 @@
       <workItem from="1670941880166" duration="7771000" />
       <workItem from="1671053582268" duration="1995000" />
       <workItem from="1671098420189" duration="1124000" />
+      <workItem from="1671099678181" duration="7127000" />
+      <workItem from="1671276302733" duration="630000" />
     </task>
     <servers />
   </component>
