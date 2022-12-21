@@ -11,14 +11,14 @@ public class Analysis {
         int failures = 0;
         int studentCounter = 1;
 
-        while (studentCounter <= 10){
+        while (studentCounter != 10){
             System.out.print("Enter result (1 = pass, 2 = fail): ");
             int result = input.nextInt();
-            if (result == 1) {
-                passes++;
-            }else {
-                failures++;
-            }
+                if (result == 1) {
+                    passes++;
+                }else {
+                    failures++;
+                }
             studentCounter++;
         }
         System.out.printf("Passed: %d%nFailures: %d%n", passes,failures);

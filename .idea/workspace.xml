@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bbf7cb-d0cb-41de-8cb4-1c9adc719861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/Analysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/ClassAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/ClassAverageSentinel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chapterFour/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/AutoPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/AutoPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/BreakTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/ContinueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/DoWhileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/Interest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/LetterGrades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFive/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/LargestNumberFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/TabularOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/TwoLargestNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/GasMileage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/GasMileage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/Analysis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/SalesCommissionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/SalesCommissionCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,7 +74,7 @@
       <recent name="first" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhileCounter">
+  <component name="RunManager" selected="Application.Analysis">
     <configuration name="Analysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapterFour.Analysis" />
       <module name="javaPracticeProject" />
@@ -79,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.ClassAverage" />
+    <configuration name="LargestNumberFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.LargestNumberFour" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassAverageSentinel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.ClassAverageSentinel" />
+    <configuration name="SalesCommissionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.SalesCommissionCalculator" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GasMileage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.GasMileage" />
+    <configuration name="TabularOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.TabularOutput" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
@@ -118,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFive.WhileCounter" />
+    <configuration name="TaxCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.TaxCalculator" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFive.*" />
+          <option name="PATTERN" value="chapterFour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WhileCounter" />
-        <item itemvalue="Application.ClassAverage" />
-        <item itemvalue="Application.GasMileage" />
         <item itemvalue="Application.Analysis" />
-        <item itemvalue="Application.ClassAverageSentinel" />
+        <item itemvalue="Application.TabularOutput" />
+        <item itemvalue="Application.LargestNumberFour" />
+        <item itemvalue="Application.TaxCalculator" />
+        <item itemvalue="Application.SalesCommissionCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +172,9 @@
       <workItem from="1671053582268" duration="1995000" />
       <workItem from="1671098420189" duration="1124000" />
       <workItem from="1671099678181" duration="7127000" />
-      <workItem from="1671276302733" duration="630000" />
+      <workItem from="1671276302733" duration="4070000" />
+      <workItem from="1671332680817" duration="6369000" />
+      <workItem from="1671528053124" duration="13018000" />
     </task>
     <servers />
   </component>

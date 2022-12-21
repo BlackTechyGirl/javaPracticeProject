@@ -3,47 +3,40 @@ package chapterFour;
 import java.util.Scanner;
 
 public class SalesCommissionCalculator {
-    private static Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) {
-        calculateSalesCommission();
-    }
-    public static void calculateSalesCommission(){
-        displayItems();
-        double itemPrice = getItemPrice();
+        Scanner input = new Scanner(System.in);
 
-        double totalPrice = 0;
-        double weeklyEarnings = 200;
-        double earningCommission = 0.09;
+        System.out.println("""
+                Items    Price
+                1        239.99
+                2        129.75
+                3        99.95
+                4        350.89
+                """);
+        int item = input.nextInt();
 
-        while (itemPrice != -1){
+        System.out.println("Enter the amount of the item: ");
+        double amount = input.nextDouble();
 
-            totalPrice+=itemPrice;
-            itemPrice = getItemPrice();
+        double total = 0;
+        double commission = 0.09;
+
+        while (amount != -1){
+            total += amount;
+
+            System.out.println("""
+                Items    Price
+                1        239.99
+                2        129.75
+                3        99.95
+                4        350.89
+                """);
+            item = input.nextInt();
+
+            System.out.println("Enter the amount of the item: ");
+            amount = input.nextDouble();
         }
-
-        double totalWeeklyEarnings = weeklyEarnings + (totalPrice * earningCommission);
-
-        displayEarnings(totalWeeklyEarnings);
+        double earnings = (total * commission) + 200;
+        System.out.printf("The total earning is: %.2f", earnings);
     }
-
-    private static void displayEarnings(double totalWeeklyEarnings) {
-        System.out.printf("%s%.2f", "Your total weekly earnings is: ", totalWeeklyEarnings);
-    }
-
-    private static double getItemPrice() {
-        System.out.println("Enter item price or -1 to exit");
-        return scanner.nextDouble();
-    }
-
-    private static void displayItems() {
-        String items = """
-1. Item 1 (price: 239.99)
-2. Item 2 (129.75)
-3. Item 3 (99.95)
-4. Item 350 (350.89)
-""";
-        System.out.println(items);
-    }
-
 }
