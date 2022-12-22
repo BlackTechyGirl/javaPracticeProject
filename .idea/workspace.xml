@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bbf7cb-d0cb-41de-8cb4-1c9adc719861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/AutoPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/AutoPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/BreakTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/ContinueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/DoWhileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/Interest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/LetterGrades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFive/Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/LargestNumberFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/TabularOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/TwoLargestNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/BarChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/InitArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/InitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/RollDie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/StudentPoll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSeven/SumArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/Analysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/SalesCommissionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/SalesCommissionCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +66,13 @@
       <recent name="first" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Analysis">
-    <configuration name="Analysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.Analysis" />
+  <component name="RunManager" selected="Application.StudentPoll">
+    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.BarChart" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFour.*" />
+          <option name="PATTERN" value="chapterSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.LargestNumberFour" />
+    <configuration name="InitArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.InitArr" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFour.*" />
+          <option name="PATTERN" value="chapterSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SalesCommissionCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.SalesCommissionCalculator" />
+    <configuration name="RollDie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.RollDie" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFour.*" />
+          <option name="PATTERN" value="chapterSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TabularOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.TabularOutput" />
+    <configuration name="StudentPoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.StudentPoll" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFour.*" />
+          <option name="PATTERN" value="chapterSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterFour.TaxCalculator" />
+    <configuration name="SumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSeven.SumArray" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterFour.*" />
+          <option name="PATTERN" value="chapterSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Analysis" />
-        <item itemvalue="Application.TabularOutput" />
-        <item itemvalue="Application.LargestNumberFour" />
-        <item itemvalue="Application.TaxCalculator" />
-        <item itemvalue="Application.SalesCommissionCalculator" />
+        <item itemvalue="Application.StudentPoll" />
+        <item itemvalue="Application.RollDie" />
+        <item itemvalue="Application.BarChart" />
+        <item itemvalue="Application.SumArray" />
+        <item itemvalue="Application.InitArr" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +167,8 @@
       <workItem from="1671276302733" duration="4070000" />
       <workItem from="1671332680817" duration="6369000" />
       <workItem from="1671528053124" duration="13018000" />
+      <workItem from="1671628141292" duration="1448000" />
+      <workItem from="1671699398077" duration="4969000" />
     </task>
     <servers />
   </component>
