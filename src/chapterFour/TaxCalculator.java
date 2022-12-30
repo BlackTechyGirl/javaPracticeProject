@@ -17,14 +17,12 @@ public class TaxCalculator {
 
         if (earnings <= minimumEarning){
             double taxAmount = earnings * baseTaxRate;
-            System.out.println("Your tax rate is " + taxAmount);
+            System.out.println(name + "Your tax rate is " + taxAmount);
         }else {
            double baseTax = minimumEarning * baseTaxRate;
            double excess = earnings - minimumEarning;
            double taxAmount = excess * additionalTaxRate + baseTax;
-            System.out.println("Your tax rate is " + taxAmount);
+            System.out.println(name + "Your tax rate is " + taxAmount);
         }
-
-
     }
 }

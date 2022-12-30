@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bbf7cb-d0cb-41de-8cb4-1c9adc719861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/BarChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/InitArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/InitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/RollDie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/StudentPoll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSeven/SumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FibinacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterFour/SalesCommision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSix/MaximumFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSix/RollDie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapterSix/SecureRandomExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/LargestNumberFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/LargestNumberFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/SalesCommissionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/SalesCommissionCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/TaxCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +68,13 @@
       <recent name="first" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StudentPoll">
-    <configuration name="BarChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.BarChart" />
+  <component name="RunManager" selected="Application.RollDie">
+    <configuration name="LargestNumberFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.LargestNumberFour" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.*" />
+          <option name="PATTERN" value="chapterFour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.InitArr" />
+    <configuration name="MaximumFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSix.MaximumFinder" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.*" />
+          <option name="PATTERN" value="chapterSix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="RollDie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.RollDie" />
+      <option name="MAIN_CLASS_NAME" value="chapterSix.RollDie" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.*" />
+          <option name="PATTERN" value="chapterSix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentPoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.StudentPoll" />
+    <configuration name="SecureRandomExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterSix.SecureRandomExample" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.*" />
+          <option name="PATTERN" value="chapterSix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapterSeven.SumArray" />
+    <configuration name="TabularOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapterFour.TabularOutput" />
       <module name="javaPracticeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapterSeven.*" />
+          <option name="PATTERN" value="chapterFour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentPoll" />
         <item itemvalue="Application.RollDie" />
-        <item itemvalue="Application.BarChart" />
-        <item itemvalue="Application.SumArray" />
-        <item itemvalue="Application.InitArr" />
+        <item itemvalue="Application.SecureRandomExample" />
+        <item itemvalue="Application.MaximumFinder" />
+        <item itemvalue="Application.LargestNumberFour" />
+        <item itemvalue="Application.TabularOutput" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,18 @@
       <workItem from="1671332680817" duration="6369000" />
       <workItem from="1671528053124" duration="13018000" />
       <workItem from="1671628141292" duration="1448000" />
-      <workItem from="1671699398077" duration="4969000" />
+      <workItem from="1671699398077" duration="7036000" />
+      <workItem from="1671836149038" duration="616000" />
+      <workItem from="1671872137076" duration="598000" />
+      <workItem from="1672105406544" duration="1581000" />
+      <workItem from="1672144920854" duration="2168000" />
+      <workItem from="1672225732144" duration="301000" />
+      <workItem from="1672262108968" duration="1326000" />
+      <workItem from="1672278136006" duration="3426000" />
+      <workItem from="1672328809730" duration="38000" />
+      <workItem from="1672334172020" duration="1168000" />
+      <workItem from="1672398439138" duration="741000" />
+      <workItem from="1672404324498" duration="3029000" />
     </task>
     <servers />
   </component>
