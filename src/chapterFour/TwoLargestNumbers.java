@@ -13,12 +13,14 @@ public class TwoLargestNumbers {
             System.out.println("Enter a number: ");
             int number = input.nextInt();
             if(number > firstLargest){
+                secondLargest = firstLargest;
                 firstLargest = number;
             }
-            if(number > secondLargest){
+            else if(number > secondLargest){
                 secondLargest = number;
             }
             counter++;
         }
+        System.out.println("Largest number is "+firstLargest+ "\nSecond Largest number is "+secondLargest);
     }
 }

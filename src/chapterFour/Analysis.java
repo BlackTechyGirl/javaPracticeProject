@@ -12,8 +12,9 @@ public class Analysis {
         int studentCounter = 1;
 
         while (studentCounter != 10){
-            System.out.print("Enter result (1 = pass, 2 = fail): ");
+            System.out.print("Enter result (1 = pass, 2 = fail): "+ studentCounter+"\n");
             int result = input.nextInt();
+            if (result != 1 && result != 2)
                 if (result == 1) {
                     passes++;
                 }else {
