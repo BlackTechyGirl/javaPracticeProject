@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2bbf7cb-d0cb-41de-8cb4-1c9adc719861" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter14/exampleOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter14/paragonString/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter14/paragonString/exampleOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/EmployeeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/Time1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/Time1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/Time2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEight/hugeInteger/HugeInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterEleven/DivisionByZeroWithExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/CheckersBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/Mystery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/RightAngleTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterFour/SpecifiedSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSix/Craps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSix/gameOfCraps/Craps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapterSix/gameOfCraps/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/first/Phonie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chapterEight/hugeInteger/HugeIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/first/PhonieTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/gameOfCraps/CrapsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaProblems/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/Analysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/Analysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/LargestNumberFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/LargestNumberFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapterFour/TwoLargestNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapterFour/TwoLargestNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/first/Phonie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/Phonie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,7 +78,20 @@
       <recent name="chapter14.paragonString" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhonieTest">
+  <component name="RunManager" selected="Application.PrimeNumber">
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaProblems.PrimeNumber" />
+      <module name="javaPracticeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaProblems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhonieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javaPracticeProject" />
       <extension name="coverage">
@@ -164,29 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhonieTest.testThatWeCanCheckMtm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javaPracticeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="first" />
-      <option name="MAIN_CLASS_NAME" value="first.PhonieTest" />
-      <option name="METHOD_NAME" value="testThatWeCanCheckMtm" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="JUnit.PhonieTest" />
         <item itemvalue="JUnit.PhonieTest.testThatWeCanCheck9mobile" />
         <item itemvalue="JUnit.PhonieTest.testThatWeCanCheckGlo" />
         <item itemvalue="JUnit.PhonieTest.testThatWeCanCheckAirtel" />
-        <item itemvalue="JUnit.PhonieTest.testThatWeCanCheckMtm" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +210,10 @@
       <workItem from="1673283223463" duration="2979000" />
       <workItem from="1673341739485" duration="16684000" />
       <workItem from="1673709278916" duration="1342000" />
-      <workItem from="1673879388706" duration="4327000" />
+      <workItem from="1673879388706" duration="5508000" />
+      <workItem from="1673946074075" duration="676000" />
+      <workItem from="1674030197504" duration="604000" />
+      <workItem from="1674134971732" duration="1613000" />
     </task>
     <servers />
   </component>

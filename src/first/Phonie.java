@@ -60,7 +60,7 @@ public class Phonie {
         return number;
     }
 
-    public static String checkFirstFourdigits(String number) {
+    public static String checkFirstFourDigits(String number) {
         String cutNumber = "";
         if(number.length()== 11){
             for (int i = 0; i < 4; i++) {
